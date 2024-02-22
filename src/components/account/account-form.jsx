@@ -1,7 +1,8 @@
 "use client";
 import { useCallback, useEffect, useState } from "react";
 import { createClientComponentClient } from "@supabase/auth-helpers-nextjs";
-import Avatar from "./avatar";
+import Avatar
+ from "./avatar";
 
 export default function AccountForm({ user }) {
   const supabase = createClientComponentClient();
